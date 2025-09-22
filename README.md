@@ -1,46 +1,80 @@
-# Astro Starter Kit: Basics
+# 💼 Portafolio Personal - Diego González
 
-```sh
-npm create astro@latest -- --template basics
-```
+¡Bienvenido a mi portafolio personal! Este proyecto está construido con **Astro** y muestra mis proyectos más importantes, habilidades técnicas e información de contacto.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 👨‍💻 Sobre mí
 
-## 🚀 Project Structure
+Soy Diego González (Duzan), un desarrollador full stack apasionado por crear soluciones digitales innovadoras. Me especializo en tecnologías modernas como Vue.js, Node.js y PostgreSQL, y mi pasión es resolver problemas con tecnología que me obliguen a aprender cosas nuevas.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚀 Características del Portafolio
+
+- **Diseño moderno y responsivo** con efectos visuales atractivos
+- **Sección Hero** con información personal y enlaces de contacto
+- **Portafolio de proyectos** destacando mis trabajos más importantes
+- **Sección "Sobre mí"** con mis habilidades técnicas
+- **Animaciones suaves** y efectos hover interactivos
+- **Optimizado para SEO** y rendimiento
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend**: Astro, HTML5, CSS3, JavaScript
+- **Estilos**: CSS personalizado con gradientes y efectos glassmorphism
+- **Animaciones**: CSS animations y transitions
+- **Iconos**: SVG personalizados para redes sociales
+- **Hosting**: Optimizado para despliegue estático
+
+## 📂 Estructura del Proyecto
 
 ```text
 /
 ├── public/
 │   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
+├── src/
+│   ├── components/
+│   │   ├── Header.astro      # Navegación principal
+│   │   ├── Hero.astro        # Sección principal con info personal
+│   │   ├── About.astro       # Información sobre mí y habilidades
+│   │   ├── Projects.astro    # Portafolio de proyectos
+│   │   └── Welcome.astro     # Componente de bienvenida
+│   ├── layouts/
+│   │   └── Layout.astro      # Layout principal del sitio
+│   └── pages/
+│       └── index.astro       # Página principal
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🎯 Proyectos Destacados
 
-## 🧞 Commands
+1. **Dominio Lector** - Plataforma educativa para pruebas de dominio lector
+2. **Backend Express** - API robusta para aplicaciones educativas
+3. **Videos Empresariales** - Plataforma para SmartTV empresarial
 
-All commands are run from the root of the project, from a terminal:
+## 🧞 Comandos de Desarrollo
 
-| Command                   | Action                                           |
+Todos los comandos se ejecutan desde la raíz del proyecto:
+
+| Comando                   | Acción                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Instala las dependencias                         |
+| `npm run dev`             | Inicia el servidor de desarrollo en `localhost:4321` |
+| `npm run build`           | Construye el sitio para producción en `./dist/` |
+| `npm run preview`         | Previsualiza la build localmente                 |
+| `npm run astro ...`       | Ejecuta comandos CLI de Astro                    |
 
-## 👀 Want to learn more?
+## 📞 Información de Contacto
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **GitHub**: [Duzan404](https://github.com/Duzan404)
+- **LinkedIn**: [Diego González](https://www.linkedin.com/in/diego-gonz%C3%A1lez-78a0b4249/)
+- **Instagram**: [@diegoduzan_](https://www.instagram.com/diegoduzan_/)
+
+## 🌟 Características Técnicas
+
+- **Responsive Design**: Adaptado para todos los dispositivos
+- **Animaciones CSS**: Efectos suaves y profesionales
+- **Glassmorphism**: Efectos de cristal modernos
+- **Gradientes**: Paleta de colores cohesiva
+- **Optimización**: Carga rápida y SEO friendly
+
+---
+
+*Este portafolio representa mi evolución como desarrollador*
